@@ -108,7 +108,7 @@ class BlackScholes:
 with st.sidebar:
     st.title("📊 Black-Scholes Model")
     st.write("`Created by:`")
-    linkedin_url = "https://www.linkedin.com/in/mprudhvi/"
+    linkedin_url = "https://www.linkedin.com/in/akshat-kulshreshtha-9314421a2/"
     st.markdown(f'<a href="{linkedin_url}" target="_blank" style="text-decoration: none; color: inherit;"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">`Akshat Kulshreshtha`</a>', unsafe_allow_html=True)
 
     current_price = st.number_input("Current Asset Price", value=1.00, min_value=0.01, step=0.01)
